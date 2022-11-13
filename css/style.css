@@ -100,7 +100,7 @@ img {
 .nav .current {
   color: var(--color-button-accent);
 }
-
+/* 
 .current::after,
 .current::before {
   color: var(--color-button-accent);
@@ -113,7 +113,7 @@ img {
   height: 4px;
   background-color: var(--color-button-accent);
   border-radius: 2px;
-}
+} */
 
 .contacts {
   display: flex;
@@ -699,6 +699,7 @@ img {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
 }
 .text-portfolio-hover {
   position: absolute;
